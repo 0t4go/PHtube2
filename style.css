@@ -1,0 +1,61 @@
+body {
+    color: white;
+    background: rgb(34, 34, 34);
+    margin: 0px;
+    margin-bottom: 50px;
+   
+
+}
+
+header{
+    border-bottom: solid 2px rgb(218, 0, 0);
+    padding: 13px;
+    font-size: 35px;
+    color:rgb(218, 0, 0);
+    font-family: "Anton", system-ui;
+
+}
+
+.chamada{
+    
+    background: rgb(49, 49, 49);
+    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: "Oswald", system-ui;
+
+}
+
+.chamada-texto{
+    margin-right: 5%
+
+}
+
+
+
+.mais-videos {
+    font-family: "Oswald", system-ui;
+
+}
+
+.categoria-videos {
+    display: flex;
+    padding-bottom: 10px;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 150px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid white;
+}
+
+.video-secreto img {
+    height: 50px;
+    opacity:0;
+}
